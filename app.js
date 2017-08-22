@@ -22,6 +22,11 @@ var connector = new builder.ChatConnector({
 // Listen for messages from users 
 server.post('/api/messages', connector.listen());
 
+// status route
+server.get('/', function (request, response, next) {
+    response.send(200, 'online');
+});
+
 /**
  * Create your bot with a function to receive messages from the user.
  * - This function will be called anytime the users utterance isn't
