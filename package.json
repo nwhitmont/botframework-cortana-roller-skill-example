@@ -1,0 +1,29 @@
+{
+  "name": "botframework-cortana-roller-skill-example",
+  "version": "1.0.0",
+  "description": "Bot Framework Cortana Skill Example - Roller Skill",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "8.1.0",
+    "npm": "5.0.3"
+  },
+  "author": "Microsoft Corp.",
+  "license": "MIT",
+  "keywords": [
+    "botbuilder",
+    "bots",
+    "chatbots",
+    "botbuilder-samples"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwhitmont/botframework-cortana-roller-skill-example"
+  },
+  "dependencies": {
+    "botbuilder": "^3.9.1",
+    "dotenv-extended": "^2.0.0",
+    "restify": "^4.3.0"
+  }
+}
